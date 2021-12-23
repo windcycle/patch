@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+}
+::selection{
+    background-color: crimson;
+    color: #000;
+}
+body{
+    color: crimson;
+    font-family: 'Creepster';
+}
+.background{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+div.newest{
+    background-color: black;
+    max-width: 300px;
+    margin: auto;
+    margin-top: 10%;
+    margin-left: 10%;
+    opacity: 0.8;
+}
+div.newest2{
+    background-color: white;
+    max-width: 300px;
+    margin-top: 10%;
+    display: flexbox;
+    margin-left: 80%;
+    opacity: 0.8;
+    float: inline-start;
+    display: block;
+}
+div.container{
+    background-color: black;
+    max-width: 300px;
+    margin-top: 10%;
+    margin-left: 40%;
+    opacity: 0.8;
+}
+hr.underline{
+   border-top: 1px dashed blue;
+}
+h1.text-login{
+    color:red;
+    text-align: center;
+    font-size: 30px;
+}
+P.description{
+    color: lightgreen;
+    text-align: center;
+    font-size: 40px;
+}
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-bottom: 2px solid red;
+}
+input[type=password]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-bottom: 2px dotted black;
+}
+input[type=text]:focus{
+    background-color: lightseagreen;
+    color: white;
+}
+input[type=password]:focus{
+    background-color: lightseagreen;
+    color: white;
+}
